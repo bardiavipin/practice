@@ -21,7 +21,7 @@ public class MyResources {
      */
     @RequestMapping(value = "/customer", method = RequestMethod.GET, produces = "text/plain")
     public ResponseEntity<String> getIt() {
-        return new ResponseEntity<String>("Got it", HttpStatus.OK);
+        return new ResponseEntity<String>("hey thats great you gt it", HttpStatus.OK);
     }
 
 }
